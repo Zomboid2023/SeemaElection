@@ -86,7 +86,7 @@ function Hero() {
         <div className="hero-image-wrap">
           <img src="/images/headshot.jpeg" alt="Seema Sunil V V" className="hero-image" />
           <div className="hero-image-label">
-            <small>Candidate for</small>
+            <small>DLC nominated Candidate for</small>
             <span>PROGRAM QUALITY DIRECTOR</span>
           </div>
         </div>
@@ -164,7 +164,7 @@ function MeetSeema() {
           </div>
           <div className="meet-content">
             <h3>Head of HR &amp; District Leader</h3>
-            <span className="meet-role">District 227 Logistics Manager (Top 9)</span>
+            <span className="meet-role">District 92 Logistics Manager (Top 9)</span>
             <p>
               I currently serve as Head of HR in a startup, working closely with leadership teams on
               training, leadership development, conflict resolution, and building high-performance teams.
