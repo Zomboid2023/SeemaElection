@@ -57,6 +57,24 @@ const TESTIMONIALS = [
     title: 'Dummy 2',
     image: '/images/testimonials/DTM_Suchitra.jpeg',
   },
+  {
+    quote: 'Having watched Seema\'s journey for over a decade, I am consistently struck by her ability to embody the discipline of a marathon runner in everything she does. She has the endurance for long-term vision and the grit to tackle immediate challenges. It has been a joy to witness her growth from a dedicated member in our home club to one of our most impressive Toastmasters leaders.',
+    name: 'Yo Tester',
+    title: 'Dummy 3',
+    image: '/images/testimonials/DTM_Suchitra.jpeg',
+  },
+  {
+    quote: 'Having watched Seema\'s journey for over a decade, I am consistently struck by her ability to embody the discipline of a marathon runner in everything she does. She has the endurance for long-term vision and the grit to tackle immediate challenges. It has been a joy to witness her growth from a dedicated member in our home club to one of our most impressive Toastmasters leaders.',
+    name: 'Yo Tester',
+    title: 'Dummy 4',
+    image: '/images/testimonials/DTM_Suchitra.jpeg',
+  },
+  {
+    quote: 'Having watched Seema\'s journey for over a decade, I am consistently struck by her ability to embody the discipline of a marathon runner in everything she does. She has the endurance for long-term vision and the grit to tackle immediate challenges. It has been a joy to witness her growth from a dedicated member in our home club to one of our most impressive Toastmasters leaders.',
+    name: 'Yo Tester',
+    title: 'Dummy 5',
+    image: '/images/testimonials/DTM_Suchitra.jpeg',
+  },
 ]
 
 /* ─── Components ─── */
