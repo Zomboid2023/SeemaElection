@@ -161,6 +161,12 @@ body {
 .meet-content h3 { font-family: var(--font-display); font-size: 1.8rem; color: var(--navy); margin-bottom: 0.25rem; }
 .meet-content .meet-role { color: var(--blue); font-weight: 600; font-size: 1rem; margin-bottom: 1.5rem; display: block; }
 .meet-content p { margin-bottom: 1rem; }
+.education-list { margin-top: 1.5rem; margin-bottom: 1rem; }
+.education-list h4 { font-family: var(--font-display); font-size: 1.1rem; color: var(--navy); margin-bottom: 0.5rem; }
+.education-list ul { list-style: none; padding: 0; }
+.education-list li { position: relative; padding-left: 1rem; margin-bottom: 0.4rem; font-size: 0.9rem; color: var(--steel); }
+.education-list li::before { content: ''; position: absolute; left: 0; top: 0.55rem; width: 6px; height: 6px; border-radius: 50%; background: var(--blue); }
+.education-list li em { color: var(--blue); font-style: normal; font-weight: 500; }
 .meet-stats { display: flex; gap: 2rem; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; }
 .stat { text-align: center; }
 .stat-value { font-family: var(--font-display); font-size: 2rem; color: var(--navy); font-weight: 700; display: block; }
@@ -208,7 +214,7 @@ body {
 .achievement-card p { font-size: 0.875rem; color: var(--gray); }
 
 /* ====== PERSONAL ====== */
-.personal-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.personal-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
 .personal-card {
   background: var(--white); padding: 2rem; border-radius: 12px; text-align: center;
   border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.04);

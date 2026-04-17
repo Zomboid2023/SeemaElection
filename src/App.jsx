@@ -19,21 +19,22 @@ const VISION_PILLARS = [
 ]
 
 const TIMELINE = [
-  { role: 'District Logistics Manager', period: 'Jul 2025 - Jun 2026', desc: 'Top 9 District role. Working with DD, PQD & CGD on planning, budgets, and governance.' },
-  { role: 'Division Director', period: 'Jul 2024 - Jun 2025', desc: 'Led Division to President\'s Distinguished status. Turned around struggling clubs.' },
-  { role: 'Area Director', period: 'Jul 2023 - Jun 2024', desc: 'Chartered 2 college clubs. Growth Pioneer & Leader Awards. Pathbreaker Award.' },
-  { role: 'Club President', period: 'Jan 2022 - Jun 2022', desc: 'Led club operations, member engagement, and educational programming.' },
-  { role: 'VP Education', period: 'Jul 2021 - Dec 2021', desc: 'Managed educational programs and mentored members on Pathways.' },
   { role: 'Club Treasurer', period: 'Jul 2019 - Dec 2019', desc: 'Managed club finances with accountability and transparency.' },
+  { role: 'Club VP Education', period: 'Jul 2021 - Dec 2021', desc: 'Managed educational programs and mentored members on Pathways.' },
+  { role: 'Club President', period: 'Jan 2022 - Jun 2022', desc: 'Led club operations, member engagement, and educational programming.' },
+  { role: 'Area Director', period: 'Jul 2023 - Jun 2024', desc: 'Chartered 2 college clubs. Growth Pioneer & Leader Awards. Pathbreaker Award.' },
+  { role: 'Club Treasurer', period: 'Dec 2024', desc: 'Stepped in to support club financial operations during leadership transition.' },
+  { role: 'Division Director', period: 'Jul 2024 - Jun 2025', desc: 'Led Division to President\'s Distinguished status. Turned around struggling clubs.' },
+  { role: 'District Logistics Manager', period: 'Jul 2025 - Jun 2026', desc: 'Top 9 District role. Working with DD, PQD & CGD on planning, budgets, and governance.' },
 ]
 
 const ACHIEVEMENTS = [
   { icon: '🏆', title: 'President\'s Distinguished Division', sub: 'Division Director 2024-25', desc: 'Turned around two struggling clubs into Distinguished, award-winning clubs through strategic planning.' },
-  { icon: '🚀', title: 'Chartered 4+ Clubs', sub: 'Area, Division & District Level', desc: 'Chartered 2 college clubs as Area Director, expanded into North Karnataka, and sponsored 2 corporate clubs.' },
-  { icon: '🏅', title: 'Triple Crown Award', sub: 'Toastmasters Recognition', desc: 'Achieved the prestigious Triple Crown along with Growth Pioneer, Leader, and Master Mentor awards.' },
+  { icon: '🚀', title: 'Chartered 6 Clubs', sub: 'Area, Division & District Level', desc: 'Chartered 2 college clubs as Area Director, expanded into North Karnataka as Division Director, and sponsored 2 corporate clubs as District Logistics Manager.' },
+  { icon: '🏅', title: 'Honors & Recognition', sub: 'Toastmasters Awards', desc: 'Growth Pioneer Award, Leader Award, Triple Crown Award, Pathbreaker Award, and Master Mentor Award.' },
   { icon: '📋', title: 'ISO/IEC 27001 Lead Auditor', sub: 'Professional Certification', desc: 'Designed and rolled out robust, auditable governance procedures ensuring organization-wide compliance.' },
   { icon: '🎓', title: 'XLRI Executive Program', sub: 'Digital HR Leadership 2025-26', desc: 'Pursuing Executive Development Program in Digital HR Leadership & People Analytics from XLRI.' },
-  { icon: '🏃‍♀️', title: 'Procam Slam 2023 Finisher', sub: 'Marathon Runner', desc: 'Completed Tata Mumbai Marathon (42.195 km), Kolkata 25K, Delhi Half Marathon, and TCS World 10K.' },
+  { icon: '🎤', title: 'Speechcraft & YLP', desc: 'Conducted Speechcraft sessions and organized Youth Leadership Program (YLP) sessions to develop emerging leaders.' },
 ]
 
 const PERSONAL = [
@@ -120,9 +121,12 @@ function Vision() {
           A Five-Pillar Approach to Make Quality a Habit—Turning Every Moment into Member Growth, Building Confident Leaders, and Helping Every Club Rise & Thrive
         </p>
         <div className="vision-grid">
+          <div>
+            <img src="/images/vision-plan.jpeg" alt="PQD Vision Plan" className="vision-image" />
+          </div>
           <div className="vision-text">
             <h3>Initiatives</h3>
-            
+
             <div className="vision-pillars">
               {VISION_PILLARS.map((p, i) => (
                 <div className="pillar" key={i}>
@@ -131,9 +135,6 @@ function Vision() {
                 </div>
               ))}
             </div>
-          </div>
-          <div>
-            <img src="/images/vision-plan.jpeg" alt="PQD Vision Plan" className="vision-image" />
           </div>
         </div>
       </div>
@@ -148,7 +149,7 @@ function MeetSeema() {
         <h2 className="section-title">Meet Seema</h2>
         <div className="section-divider" />
         <p className="section-subtitle">
-          HR leader, Toastmaster, and marathon runner dedicated to empowering others.
+          HR leader, Toastmaster and Endurance Athlete dedicated to empowering others.
         </p>
         <div className="meet-grid">
           <div className="meet-photo-wrap">
@@ -162,7 +163,7 @@ function MeetSeema() {
             <h3>Head of HR &amp; District Leader</h3>
             <span className="meet-role">District 92 Logistics Manager (Top 9)</span>
             <p>
-              I currently serve as Head of HR in a startup, working closely with leadership teams on
+              I currently serve as Head of HR in an IT company, working closely with leadership teams on
               training, leadership development, conflict resolution, and building high-performance teams.
             </p>
             <p>
@@ -170,16 +171,20 @@ function MeetSeema() {
               the District Director, PQD, and CGD. This has given me strong exposure to District-level
               planning, budgeting, procurement, and governance.
             </p>
-            <p>
-              My education includes a B.Tech in Electronics & Telecommunications, an MBA in HR Management,
-              Strategic HRM from IIM Kozhikode, and I'm currently pursuing an Executive Development
-              Program from XLRI.
-            </p>
+            <div className="education-list">
+              <h4>Education</h4>
+              <ul>
+                <li><strong>Executive Development Program</strong> — Digital HR Leadership & People Analytics, XLRI <em>(Pursuing)</em></li>
+                <li><strong>Strategic Human Resource Management</strong> — IIM Kozhikode</li>
+                <li><strong>MBA</strong> — Human Resource Management</li>
+                <li><strong>B.Tech</strong> — Electronics & Telecommunications</li>
+              </ul>
+            </div>
             <div className="meet-stats">
               <div className="stat"><span className="stat-value">7+</span><span className="stat-label">Years in TM</span></div>
-              <div className="stat"><span className="stat-value">4+</span><span className="stat-label">Clubs Chartered</span></div>
+              <div className="stat"><span className="stat-value">6</span><span className="stat-label">Clubs Chartered</span></div>
               <div className="stat"><span className="stat-value">Top 9</span><span className="stat-label">District Role</span></div>
-              <div className="stat"><span className="stat-value">10+</span><span className="stat-label">Awards</span></div>
+              <div className="stat"><span className="stat-value">7</span><span className="stat-label">Awards</span></div>
             </div>
           </div>
         </div>
@@ -273,11 +278,11 @@ function Contact() {
         <div className="contact-grid">
           <div className="contact-item">
             <h4>Email</h4>
-            <a href="mailto:seema@example.com">seema@example.com</a>
+            <a href="mailto:vvseemasunil@gmail.com">vvseemasunil@gmail.com</a>
           </div>
           <div className="contact-item">
             <h4>Phone</h4>
-            <p>+91 XXXXX XXXXX</p>
+            <p>+91 99001 14708</p>
           </div>
           <div className="contact-item">
             <h4>Follow</h4>
