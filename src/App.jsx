@@ -52,28 +52,10 @@ const TESTIMONIALS = [
     image: '/images/testimonials/DTM_Suchitra.jpeg',
   },
   {
-    quote: 'Having watched Seema\'s journey for over a decade, I am consistently struck by her ability to embody the discipline of a marathon runner in everything she does. She has the endurance for long-term vision and the grit to tackle immediate challenges. It has been a joy to witness her growth from a dedicated member in our home club to one of our most impressive Toastmasters leaders.',
-    name: 'Yo Tester',
-    title: 'Dummy 2',
-    image: '/images/testimonials/DTM_Suchitra.jpeg',
-  },
-  {
-    quote: 'Having watched Seema\'s journey for over a decade, I am consistently struck by her ability to embody the discipline of a marathon runner in everything she does. She has the endurance for long-term vision and the grit to tackle immediate challenges. It has been a joy to witness her growth from a dedicated member in our home club to one of our most impressive Toastmasters leaders.',
-    name: 'Yo Tester',
-    title: 'Dummy 3',
-    image: '/images/testimonials/DTM_Suchitra.jpeg',
-  },
-  {
-    quote: 'Having watched Seema\'s journey for over a decade, I am consistently struck by her ability to embody the discipline of a marathon runner in everything she does. She has the endurance for long-term vision and the grit to tackle immediate challenges. It has been a joy to witness her growth from a dedicated member in our home club to one of our most impressive Toastmasters leaders.',
-    name: 'Yo Tester',
-    title: 'Dummy 4',
-    image: '/images/testimonials/DTM_Suchitra.jpeg',
-  },
-  {
-    quote: 'Having watched Seema\'s journey for over a decade, I am consistently struck by her ability to embody the discipline of a marathon runner in everything she does. She has the endurance for long-term vision and the grit to tackle immediate challenges. It has been a joy to witness her growth from a dedicated member in our home club to one of our most impressive Toastmasters leaders.',
-    name: 'Yo Tester',
-    title: 'Dummy 5',
-    image: '/images/testimonials/DTM_Suchitra.jpeg',
+    quote: 'I have seen her transform from a reluctant speaker into a confident, poised leader who truly epitomizes the spirit of Toastmasters. Her growth is a  due to her dedication, as she moves from strength to strength. Seema is a cornerstone of our community. She is ever-ready to step up, offer guidance, and mentor fellow members with genuine care. She is the kind of leader who doesn\'t just lead by position, but by example—the kind of leader everyone of us is proud to follow.',
+    name: 'Sunil Govind, DTM',
+    title: 'Retd. Lt. Commander, Indian Navy',
+    image: '/images/testimonials/DTM_Sunil.jpeg',
   },
 ]
 
