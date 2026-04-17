@@ -114,19 +114,15 @@ function Vision() {
   return (
     <section className="section bg-light" id="vision">
       <div className="section-inner">
-        <h2 className="section-title">Vision & Initiatives</h2>
+        <h2 className="section-title">Vision</h2>
         <div className="section-divider" />
         <p className="section-subtitle">
-          A five-pillar approach to deliver quality training, quality leadership, and a quality club experience.
+          A Five-Pillar Approach to Make Quality a Habit—Turning Every Moment into Member Growth, Building Confident Leaders, and Helping Every Club Rise & Thrive
         </p>
         <div className="vision-grid">
           <div className="vision-text">
-            <h3>PQD Vision Plan</h3>
-            <p>
-              The District mission is to build new clubs and support all clubs in achieving excellence.
-              As Program Quality Director, I will strengthen training, education, and leader readiness
-              across the District through a structured, data-informed approach.
-            </p>
+            <h3>Initiatives</h3>
+            
             <div className="vision-pillars">
               {VISION_PILLARS.map((p, i) => (
                 <div className="pillar" key={i}>
