@@ -19,21 +19,19 @@ const VISION_PILLARS = [
 ]
 
 const TIMELINE = [
-  { role: 'Club Treasurer', period: 'Jul 2019 - Dec 2019', desc: 'Managed club finances with accountability and transparency.' },
-  { role: 'Club VP Education', period: 'Jul 2021 - Dec 2021', desc: 'Managed educational programs and mentored members on Pathways.' },
-  { role: 'Club President', period: 'Jan 2022 - Jun 2022', desc: 'Led club operations, member engagement, and educational programming.' },
-  { role: 'Area Director', period: 'Jul 2023 - Jun 2024', desc: 'Chartered 2 college clubs. Growth Pioneer & Leader Awards. Pathbreaker Award.' },
-  { role: 'Club Treasurer', period: 'Dec 2024', desc: 'Stepped in to support club financial operations during leadership transition.' },
-  { role: 'Division Director', period: 'Jul 2024 - Jun 2025', desc: 'Led Division to President\'s Distinguished status. Turned around struggling clubs.' },
   { role: 'District Logistics Manager', period: 'Jul 2025 - Jun 2026', desc: 'Top 9 District role. Working with DD, PQD & CGD on planning, budgets, and governance.' },
+  { role: 'Division Director', period: 'Jul 2024 - Jun 2025', desc: 'Led Division to President\'s Distinguished status. Turned around struggling clubs.' },
+  { role: 'Club Treasurer', period: 'Dec 2024', desc: 'Stepped in to support club financial operations during leadership transition.' },
+  { role: 'Area Director', period: 'Jul 2023 - Jun 2024', desc: 'Chartered 2 college clubs. Growth Pioneer & Leader Awards. Pathbreaker Award.' },
+  { role: 'Club President', period: 'Jan 2022 - Jun 2022', desc: 'Led club operations, member engagement, and educational programming.' },
+  { role: 'Club VP Education', period: 'Jul 2021 - Dec 2021', desc: 'Managed educational programs and mentored members on Pathways.' },
+  { role: 'Club Treasurer', period: 'Jul 2019 - Dec 2019', desc: 'Managed club finances with accountability and transparency.' },
 ]
 
 const ACHIEVEMENTS = [
-  { icon: '🏆', title: 'President\'s Distinguished Division', sub: 'Division Director 2024-25', desc: 'Turned around two struggling clubs into Distinguished, award-winning clubs through strategic planning.' },
+  { icon: '🏆', title: 'Leadership Achievement', sub: 'Division Director 2024-25', desc: 'Turned around two struggling clubs into Distinguished, award-winning clubs through strategic planning.' },
   { icon: '🚀', title: 'Chartered 6 Clubs', sub: 'Area, Division & District Level', desc: 'Chartered 2 college clubs as Area Director, expanded into North Karnataka as Division Director, and sponsored 2 corporate clubs as District Logistics Manager.' },
   { icon: '🏅', title: 'Honors & Recognition', sub: 'Toastmasters Awards', desc: 'Growth Pioneer Award, Leader Award, Triple Crown Award, Pathbreaker Award, and Master Mentor Award.' },
-  { icon: '📋', title: 'ISO/IEC 27001 Lead Auditor', sub: 'Professional Certification', desc: 'Designed and rolled out robust, auditable governance procedures ensuring organization-wide compliance.' },
-  { icon: '🎓', title: 'XLRI Executive Program', sub: 'Digital HR Leadership 2025-26', desc: 'Pursuing Executive Development Program in Digital HR Leadership & People Analytics from XLRI.' },
   { icon: '🎤', title: 'Speechcraft & YLP', desc: 'Conducted Speechcraft sessions and organized Youth Leadership Program (YLP) sessions to develop emerging leaders.' },
 ]
 
@@ -41,6 +39,18 @@ const PERSONAL = [
   { icon: '🏃‍♀️', title: 'Marathon Runner', desc: 'Procam Slam 2023 finisher. Open water swimmer. Pushing boundaries in endurance sports.' },
   { icon: '🧘', title: 'Certified Yoga Teacher', desc: 'QCI Level 2 certified. Bringing mindfulness and balance to leadership.' },
   { icon: '🎓', title: 'Alumni Leader', desc: 'President of College of Engineering Alumni Association Kannur, Bangalore Chapter.' },
+  { icon: '📋', title: 'ISO/IEC 27001 Lead Auditor', sub: 'Professional Certification', desc: 'Designed and rolled out robust, auditable governance procedures ensuring organization-wide compliance.' },
+  { icon: '🎓', title: 'XLRI Executive Program', sub: 'Digital HR Leadership 2025-26', desc: 'Pursuing Executive Development Program in Digital HR Leadership & People Analytics from XLRI.' },
+  
+]
+
+const TESTIMONIALS = [
+  {
+    quote: 'Having watched Seema\'s journey for over a decade, I am consistently struck by her ability to embody the discipline of a marathon runner in everything she does. She has the endurance for long-term vision and the grit to tackle immediate challenges. It has been a joy to witness her growth from a dedicated member in our home club to one of our most impressive Toastmasters leaders.',
+    name: 'Dr Suchitra Kaul Misra, DTM',
+    title: 'Founder, The Healing Garden',
+    image: '/images/testimonials/DTM_Suchitra.jpeg',
+  },
 ]
 
 /* ─── Components ─── */
@@ -243,6 +253,37 @@ function Achievements() {
   )
 }
 
+function Testimonials() {
+  return (
+    <section className="section bg-light" id="testimonials">
+      <div className="section-inner">
+        <h2 className="section-title">Testimonials</h2>
+        <div className="section-divider" />
+        <div className="testimonials-grid">
+          {TESTIMONIALS.map((t, i) => (
+            <div className="testimonial-card" key={i}>
+              <div className="testimonial-photo-wrap">
+                {t.image ? (
+                  <img src={t.image} alt={t.name} className="testimonial-photo" />
+                ) : (
+                  <div className="testimonial-placeholder">
+                    <span>{t.name.charAt(0)}</span>
+                  </div>
+                )}
+              </div>
+              <blockquote className="testimonial-quote">&ldquo;{t.quote}&rdquo;</blockquote>
+              <div className="testimonial-author">
+                <strong>{t.name}</strong>
+                <span>{t.title}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
 function Personal() {
   return (
     <section className="section bg-light">
@@ -331,6 +372,7 @@ export default function App() {
       <MeetSeema />
       <Journey />
       <Achievements />
+      <Testimonials />
       <Personal />
       <Contact />
       <Footer />
