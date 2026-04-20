@@ -57,6 +57,18 @@ const TESTIMONIALS = [
     title: 'Retd. Lt. Commander, Indian Navy',
     image: '/images/testimonials/DTM_Sunil.jpeg',
   },
+  {
+    quote: 'I have seen TM Seema as an active and impactful participant in the District. From serving as a dynamic Division Director to excelling as the District Logistics Manager, she embodies everything that exemplifies the Toastmasters movement. Her journey reflects the true spirit of growth—transforming from a determined speaker into a confident and inspiring leader. With her dedication, vision, and passion for the Toastmasters platform, I am confident that Seema will continue to thrive and make a remarkable difference in all her future leadership roles in the organisation.',
+    name: 'Bosco Abraham, DTM ',
+    title: 'Past DG(DD) past RA',
+    image: '/images/testimonials/DTM_bosco.jpeg',
+  },
+  {
+    quote: 'I\'ve known Seema for many years and had the joy of mentoring her at some key moments in her Toastmasters journey. What strikes me most about her is her genuineness — she truly believes in what Toastmasters can do for people, and that belief shows in everything she does. I\'ve watched her grow from someone who was nervous about speaking to a leader who inspires others with quiet confidence. Her journey is proof that sincerity and hard work go a long way. I have no doubt she\'ll continue to make a real difference. Wishing her all the very best!',
+    name: 'Kadri Pethi, DTM ',
+    title: 'Guinness World Record Holder',
+    image: '/images/testimonials/DTM_kadri.jpeg',
+  },
 ]
 
 /* ─── Components ─── */
