@@ -64,7 +64,7 @@ const TESTIMONIALS = [
     image: '/images/testimonials/DTM_bosco.jpeg',
   },
   {
-    quote: 'I\'ve known Seema for many years and had the joy of mentoring her at some key moments in her Toastmasters journey. What strikes me most about her is her genuineness — she truly believes in what Toastmasters can do for people, and that belief shows in everything she does. I\'ve watched her grow from someone who was nervous about speaking to a leader who inspires others with quiet confidence. Her journey is proof that sincerity and hard work go a long way. I have no doubt she\'ll continue to make a real difference. Wishing her all the very best!',
+    quote: 'I\'ve known Seema for many years and had the joy of mentoring her at some key moments in her Toastmasters journey. What strikes me most about her is her genuineness — she truly believes in what Toastmasters can do for people, and that belief shows in everything she does.\nI\'ve watched her grow from someone who was nervous about speaking to a leader who inspires others with quiet confidence. Her journey is proof that sincerity and hard work go a long way.\nI have no doubt she\'ll continue to make a real difference. Wishing her all the very best!',
     name: 'Kadri Pethi, DTM ',
     title: 'Guinness World Record Holder',
     image: '/images/testimonials/DTM_kadri.jpeg',
