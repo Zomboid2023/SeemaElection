@@ -69,6 +69,12 @@ const TESTIMONIALS = [
     title: 'Guinness World Record Holder',
     image: '/images/testimonials/DTM_kadri.jpeg',
   },
+  {
+    quote: 'Area H1 is a significant part of Division H. In Seema Sunil, the Area found a Division Director who was dedicated and passionate about the growth of the Toastmasters movement in the regions of Hubli-Dharwad, Belagavi, and Kalaburgi.\nAlthough these clubs are distant from her home in Bangalore, Seema visited them on every important occasion. The willingness to travel long distances to support clubs for their growth is an important quality I look for in any Division Director while writing my testimony. Seema did that and won the hearts of the club members. She is a trendsetter for other Division Directors to follow suit. The other aspect of her leadership is her ability to handle the struggling clubs in our area. She knew well that all the members of such clubs have a willingness to learn and inspired them in the most silent manner. That is the reason the clubs are functioning despite all odds, because they were instilled with a sense of responsibility and belonging by Seema.\nIt is my personal view that a leader like Seema is the need of the hour for all levels of leadership in Toastmasters for it to flourish. I thank her for serving with such grace and wisdom.',
+    name: 'TM Aafaq Khan',
+    title: 'Despande Educational Trusts Toastmasters Club Hubli',
+    image: '/images/testimonials/TM_aafaq_khan.jpeg',
+  },
 ]
 
 /* ─── Components ─── */
