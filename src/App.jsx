@@ -4,9 +4,11 @@
 const NAV_LINKS = [
   { label: 'Home', href: '#home' },
   { label: 'Vision', href: '#vision' },
+  { label: 'Election Pitch', href: '#pitch' },
   { label: 'Meet Seema', href: '#meet' },
   { label: 'Journey', href: '#journey' },
   { label: 'Achievements', href: '#achievements' },
+  { label: 'Testimonials', href: '#testimonials' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -170,6 +172,30 @@ function Vision() {
               ))}
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function ElectionPitch() {
+  // Replace YOUR_VIDEO_ID with the actual YouTube video ID
+  const videoId = '65jHAUGhcXY'
+  return (
+    <section className="section" id="pitch">
+      <div className="section-inner">
+        <h2 className="section-title">Election Pitch</h2>
+        <div className="section-divider" />
+        <p className="section-subtitle">
+          Hear directly from Seema about her vision for District 227.
+        </p>
+        <div className="video-wrap">
+          <iframe
+            src={`https://www.youtube.com/embed/${videoId}`}
+            title="Seema's Election Pitch"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
         </div>
       </div>
     </section>
@@ -393,6 +419,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Vision />
+      <ElectionPitch />
       <MeetSeema />
       <Journey />
       <Achievements />
